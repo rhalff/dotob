@@ -1,0 +1,25 @@
+{
+  "name": "dotob",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin": {
+    "dotob": "bin/dotob.js"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "ava",
+    "watch": "ava --watch"
+  },
+  "keywords": ["dot-object"],
+  "author": "Rob Halff",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "dot-object": "^1.5.1",
+    "glob": "^7.0.6"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "standard": "^8.0.0"
+  }
+}
